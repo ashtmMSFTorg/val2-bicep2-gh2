@@ -15,7 +15,7 @@ concurrency:
 
   # By default, this workflow will cancel a previous run when a new one is queued.
   # Depending on when the workflow was cancelled, it may leave orphaned environments
-  # that will be cleaned up after the PR is closed.
+  # that will be cleaned up after the PR is closed. #
   #
   # To change this behavior and wait for the previous run to finish executing, set
   # cancel-in-progress to false

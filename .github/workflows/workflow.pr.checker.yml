@@ -13,7 +13,7 @@ on: # yamllint disable-line rule:truthy
     branches:
       - main
 
-# Allow one concurrent deployment
+# Allow one concurrent deployment #
 concurrency:
   group: ${{ format('{0}-{1}-{2}', github.event_name, github.base_ref || github.ref, github.head_ref || github.event.number) }}
   cancel-in-progress: true

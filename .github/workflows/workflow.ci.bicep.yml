@@ -13,7 +13,7 @@ on: # yamllint disable-line rule:truthy
   workflow_dispatch:
     inputs:
       environmentName:
-        description: "Name of the Environment"
+        description: "Name of the Environment "
         required: true
         default: "dev"
       locationName:
